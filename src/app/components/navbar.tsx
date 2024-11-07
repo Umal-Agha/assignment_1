@@ -1,7 +1,9 @@
 import Link from "next/link"
-export default function Navbar() {
-    return (
-        <div>
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <div>
       <nav className='font-space-grotesk h-auto w-screen sm:h-12 md:h-16 lg:h-16 py-2 px-5 flex flex-col sm:flex-row justify-between items-center fixed '>
         <div className="mb-5 sm:mb-0 flex items-center space-x-3">
           <h1 className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white'>
@@ -24,5 +26,7 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
-    )
+  )
 }
+
+export default Navbar

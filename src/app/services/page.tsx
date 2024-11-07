@@ -1,4 +1,6 @@
-export default function Services() {
+import React from 'react'
+
+const page = () => {
   return (
     <div className="font-space-grotesk bg-hero-image bg-opacity-10 bg-center bg-cover text-white h-screen w-screen pt-28 text-center">
       <h1 className="text-4xl font-semibold mb-3">Our Services</h1>
@@ -16,3 +18,5 @@ export default function Services() {
     </div>
   )
 }
+
+export default page
